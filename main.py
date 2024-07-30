@@ -1,5 +1,8 @@
 import os
-import sys 
+import sys
+
+sys.path.insert(0, os.getcwd())
+
 import platform
 import signal
 import time
